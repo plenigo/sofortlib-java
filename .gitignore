@@ -6,3 +6,6 @@
 /.classpath
 /.settings
 /out
+.idea
+*.log
+target
