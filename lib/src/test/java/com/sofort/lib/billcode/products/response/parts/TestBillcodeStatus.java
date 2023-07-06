@@ -1,11 +1,10 @@
 package com.sofort.lib.billcode.products.response.parts;
 
-import static org.testng.AssertJUnit.assertEquals;
-import static org.testng.AssertJUnit.assertNull;
-
+import com.sofort.lib.billcode.products.common.BillcodeTransactionStatus;
 import org.testng.annotations.Test;
 
-import com.sofort.lib.billcode.products.common.BillcodeTransactionStatus;
+import static org.testng.AssertJUnit.assertEquals;
+import static org.testng.AssertJUnit.assertNull;
 
 
 public class TestBillcodeStatus {

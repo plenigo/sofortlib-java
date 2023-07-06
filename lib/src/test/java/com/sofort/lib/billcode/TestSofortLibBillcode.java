@@ -1,17 +1,5 @@
 package com.sofort.lib.billcode;
 
-import static org.testng.AssertJUnit.assertEquals;
-import static org.testng.AssertJUnit.assertNotNull;
-import static org.testng.AssertJUnit.assertNull;
-import static org.testng.AssertJUnit.assertTrue;
-
-import java.text.DateFormat;
-import java.text.ParseException;
-import java.text.SimpleDateFormat;
-import java.util.Arrays;
-
-import org.testng.annotations.Test;
-
 import com.sofort.lib.billcode.internal.net.http.HttpConnectionConfigBillcode;
 import com.sofort.lib.billcode.internal.transformer.renderer.BillcodeRequestRenderer;
 import com.sofort.lib.billcode.internal.transformer.renderer.BillcodeStatusRequestRenderer;
@@ -41,6 +29,17 @@ import com.sofort.lib.core.internal.utils.xml.XmlRendererHelperException;
 import com.sofort.lib.core.products.common.Bank;
 import com.sofort.lib.core.products.request.parts.Notification;
 import com.sofort.lib.core.products.response.parts.FailureMessage;
+import org.testng.annotations.Test;
+
+import java.text.DateFormat;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
+import java.util.Arrays;
+
+import static org.testng.AssertJUnit.assertEquals;
+import static org.testng.AssertJUnit.assertNotNull;
+import static org.testng.AssertJUnit.assertNull;
+import static org.testng.AssertJUnit.assertTrue;
 
 
 public class TestSofortLibBillcode {
